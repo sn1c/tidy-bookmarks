@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Tidy Bookmarks",
+    "author": "Sebastian Nickels",
     "version": "1.0",
     "description": "Automatically deletes bookmarks older than a specified number of days.",
     "permissions": ["bookmarks", "storage", "alarms"],
@@ -19,5 +20,10 @@
     "background": {
         "service_worker": "background.js",
         "scripts": ["background.js"]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "tidy-bookmarks@snickels.io"
+        }
     }
 }
