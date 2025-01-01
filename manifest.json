@@ -23,7 +23,8 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "tidy-bookmarks@snickels.io"
+            "id": "tidy-bookmarks@snickels.io",
+            "strict_min_version": "109.0"
         }
     }
 }
